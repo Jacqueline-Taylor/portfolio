@@ -33,6 +33,8 @@ span.divider-line {
 
 .selected { /*For options under header*/
 font-weight: 300;
+color:white;
+text-decoration: underline;
 border-bottom: 2px solid #FB4B4B;
 }
 
@@ -112,7 +114,7 @@ a {
   color: white;
 }
 
-a:hover {
+a:not(.options):hover {
   color:#FB4B4B;
 }
 
