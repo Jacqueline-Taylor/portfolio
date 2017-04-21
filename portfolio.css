@@ -1,0 +1,228 @@
+/*HEADER*/
+header {
+  text-align: center;
+  margin-bottom: 50px
+}
+
+h1 {
+  font-size: 7vmin;
+  font-weight: 100;
+  color: white;
+  text-decoration:none;
+}
+
+span#name { 
+margin: 1px;
+}
+
+
+span.divider-line {
+  margin:5px;
+  text-decoration: none;
+  font-size: 5.1vmin;
+  color: #FB4B4B;
+}
+
+.a_selected { /* For header */
+  padding: 8px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: #FB4B4B;
+  border-spacing: 4px:;
+}
+
+.selected { /*For options under header*/
+font-weight: 300;
+border-bottom: 2px solid #FB4B4B;
+}
+
+a.options{
+  text-decoration: none;
+  font-size:3vmin;
+  font-weight: 300;
+  color: white;
+  padding-left:0px;
+  margin-bottom:5px;
+}
+
+
+/*HEADER DIAMOND*/
+.diamond {
+  border: 10px solid transparent;
+  border-bottom-color: #FB4B4B;
+  position: relative;
+  float: center;
+  top: -10px;
+}
+
+.diamond:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #FB4B4B;}
+
+
+
+
+/*PAGES*/
+h2{
+  text-decoration: none;
+  font-size: 24px;
+  color: #FB4B4B;
+  margin-bottom:25px;
+  text-align:center;
+  font-weight:300;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+body {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  background-color: #292929;
+  padding: 1em;
+}
+
+body#front_page {
+  text-align: center;
+}
+
+p, ul{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+p.intro {
+  /*text-align: center;*/
+  margin:50px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:#FB4B4B;
+}
+
+.experience {
+  font-weight:300;
+}
+
+iframe {
+  align: center;
+  display:block;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+/* CONTACT DIAMOND*/
+.bigwrap {
+  margin-top:100px;
+}
+
+.wrap {
+  text-align:center;
+  width: auto;
+  height:auto;
+  margin:auto;
+  margin-top: 20px;
+  padding: 100px auto;
+  position: absolute;
+  left:30px;
+  right:30px;
+}
+
+img#diamond {
+  width:16%;
+  min-width: 80px;
+  max-width: 150px;
+  height:auto;
+  margin:auto;
+
+}
+
+#on_diamond{ /*Text on Diamond */
+  text-align: center;
+  color:#292929;
+  font-weight:300;
+  font-size:80%;
+  font-size: 1.5vmax!important;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:20%;
+}
+
+#on_diamond:hover {
+  color:white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+div#contact {
+  display:none;
+  margin-top: 100px;
+  text-align: center;
+  color:#FB4B4B;
+}
+
+
+a.contacts {
+  line-height: 35px;
+}
+
+a.contacts:hover {
+  cursor: pointer;
+}
+
+/*SECTIONS AND ELEMENTS */
+div.section {
+  margin-top: 40px;
+  margin-bottom: 120px;
+  margin-right:50px;
+  margin-left:50px;
+}
+
+
+div.element{
+  margin-bottom:60px;
+}
+
+
+div.title {
+  width: 640px;
+  max-width: 640px;
+  display: inline-block;
+  align: center;
+  display:block;
+  margin: 20px auto;
+  text-align:right;
+}
+
+
+
+
+
+
