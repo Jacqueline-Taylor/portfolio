@@ -6,7 +6,7 @@ header {
 
 h1 {
   font-size: 7vmin;
-  font-weight: 100;
+  font-weight: 200;
   color: white;
   text-decoration:none;
 }
@@ -95,10 +95,13 @@ body#front_page {
   text-align: center;
 }
 
+
+
+/* <p> */
 p, ul{
   color: white;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 p.intro {
@@ -108,6 +111,15 @@ p.intro {
   margin-top: 80px;
   font-size: 22px;
 }
+
+@media screen and (max-width: 480px) {
+  p {
+    font-weight:200;
+  }
+}
+
+
+
 
 a {
   text-decoration: none;
